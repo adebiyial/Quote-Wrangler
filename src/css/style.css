@@ -83,3 +83,34 @@ body {
 .shuffle-quote:active {
     transform: scale(1.1);
 }
+
+/* credit */
+
+.credit {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+}
+
+.socials>li {
+    margin: 0 5px;
+}
+
+a[href*=https] {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+
+a[href*=https]:hover {
+    background-color: black;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import Heading from "./Heading";
 import Quote from "./Quote";
 import ShuffleQuote from "./ShuffleQuote";
+import Credit from "./Credit";
 
 class App extends React.Component
 {
@@ -31,9 +32,10 @@ class App extends React.Component
     {
         return (
             <div id="app">
-                <Heading title="Perhaps, their words will ignite a spark in you." />
+                <Heading title="Perhaps, these words will ignite a spark in you." />
                 <Quote newQuote={this.state.quote} />
                 <ShuffleQuote shuffleQuote={this.shuffleQuote} />
+                <Credit />
             </div>
         )
     }
